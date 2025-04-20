@@ -17,20 +17,7 @@ import {
   Code,
   Dumbbell,
 } from "lucide-react";
-import {
-  AdoveImage,
-  AiContentImage,
-  AiReelBundleImage,
-  CanvaEditableBundleImage,
-  ChatGptPromptBundleImage,
-  DigitalMarketImage,
-  DigitalMarketingBundleImage,
-  FitnessBundleImage,
-  FreelancingBundleImage,
-  InstagramGrowthBundleImage,
-  PanIndiaDatabaseImage,
-  ResumeTemplateBundleImage,
-} from "@/assests";
+
 
 export default function BundleShowcase() {
   const [activeTab, setActiveTab] = useState("software");
@@ -178,7 +165,7 @@ const softwareItems = [
     description:
       "Complete suite of Adobe Creative Cloud applications for professional design and content creation.",
     icon: <Palette className="h-6 w-6" />,
-    image: AdoveImage.src,
+    image: '/adove-bundle.webp',
     discountedPrice: 1999,
     originalPrice: 24999,
   },
@@ -187,7 +174,7 @@ const softwareItems = [
     description:
       "Essential tools for SEO, social media management, email marketing, and analytics.",
     icon: <Code className="h-6 w-6" />,
-    image: DigitalMarketImage.src,
+    image: '/digital-market.jpg',
     discountedPrice: 1299,
     originalPrice: 4999,
   },
@@ -196,7 +183,7 @@ const softwareItems = [
     description:
       "Advanced AI-powered tools for generating high-quality content, images, and videos.",
     icon: <Package className="h-6 w-6" />,
-    image: AiContentImage.src,
+    image: '/ai-content.webp',
     discountedPrice: 1199,
     originalPrice: 3999,
   },
@@ -209,7 +196,7 @@ const templateItems = [
     description:
       "Professionally designed templates for creating engaging reels across different niches.",
     icon: <Video className="h-6 w-6" />,
-    image: AiReelBundleImage.src,
+    image: '/ai-reel-bundle.jpeg',
     discountedPrice: 799,
     originalPrice: 2999,
   },
@@ -218,7 +205,7 @@ const templateItems = [
     description:
       "Premium Canva templates for social media, presentations, and marketing materials.",
     icon: <Palette className="h-6 w-6" />,
-    image: CanvaEditableBundleImage.src,
+    image: '/canva-editable-template-bundle.webp',
     discountedPrice: 599,
     originalPrice: 2499,
   },
@@ -227,7 +214,7 @@ const templateItems = [
     description:
       "Professional resume templates to help you stand out in the job market.",
     icon: <Layers className="h-6 w-6" />,
-    image: ResumeTemplateBundleImage.src,
+    image: '/resume-template-bundle.jpg',
     discountedPrice: 399,
     originalPrice: 1299,
   },
@@ -239,7 +226,7 @@ const courseItems = [
     description:
       "Comprehensive course on growing your Instagram following and engagement organically.",
     icon: <BookOpen className="h-6 w-6" />,
-    image: InstagramGrowthBundleImage.src,
+    image: '/instagram-growth-bundle.png',
     discountedPrice: 599,
     originalPrice: 2499,
   },
@@ -248,7 +235,7 @@ const courseItems = [
     description:
       "Learn all aspects of digital marketing from basics to advanced strategies.",
     icon: <BookOpen className="h-6 w-6" />,
-    image: DigitalMarketingBundleImage.src,
+    image: '/digital-marketing-seo-bundle.png',
     discountedPrice: 999,
     originalPrice: 3499,
   },
@@ -257,7 +244,7 @@ const courseItems = [
     description:
       "Step-by-step guide to starting and growing your freelancing career.",
     icon: <BookOpen className="h-6 w-6" />,
-    image: FreelancingBundleImage.src,
+    image: '/freelancing-bundle.jpeg',
     discountedPrice: 699,
     originalPrice: 1999,
   },
@@ -270,7 +257,7 @@ const otherItems = [
     description:
       "Comprehensive database of contacts and leads across various industries in India.",
     icon: <Database className="h-6 w-6" />,
-    image: PanIndiaDatabaseImage.src,
+    image: '/pan-india-database.jpeg',
     discountedPrice: 899,
     originalPrice: 2999,
   },
@@ -279,7 +266,7 @@ const otherItems = [
     description:
       "Curated collection of effective prompts for maximizing ChatGPT's potential.",
     icon: <Code className="h-6 w-6" />,
-    image: ChatGptPromptBundleImage.src,
+    image: '/chatgpt-prompt-bundle.jpg',
     discountedPrice: 499,
     originalPrice: 1999,
   },
@@ -288,7 +275,7 @@ const otherItems = [
     description:
       "Complete fitness resources including workout plans, nutrition guides, and tracking tools.",
     icon: <Dumbbell className="h-6 w-6" />,
-    image: FitnessBundleImage.src,
+    image: '/fitness-bundle.jpeg',
     discountedPrice: 799,
     originalPrice: 2499,
   },

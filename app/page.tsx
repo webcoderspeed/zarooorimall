@@ -16,7 +16,6 @@ import ParallaxSection from "@/components/parallax-section"
 import HeroAnimation from "@/components/hero-animation"
 import StarRating from "@/components/star-rating"
 import PurchaseToast from "@/components/purchase-toast"
-import { AmitImage, IntroImage, PriyaImage, RahulImage } from "@/assests"
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -114,7 +113,7 @@ export default function Home() {
             >
               <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl border bg-gray-200">
                 <Image
-                  src={IntroImage.src}
+                  src={'/intro.webp'}
                   alt="Digital Assets Bundle"
                   fill
                 />
@@ -367,20 +366,20 @@ const testimonials = [
     role: "Digital Marketer",
     rating: 5,
     text: "This bundle completely transformed my digital marketing strategy. The templates and courses helped me grow my client's Instagram following by 300% in just 2 months!",
-    image: RahulImage.src,
+    image: '/rahul.jpeg'
   },
   {
     name: "Priya Patel",
     role: "Content Creator",
     rating: 4.5,
     text: "The AI Reels Bundle saved me countless hours of work. I'm now able to create engaging content in minutes instead of hours. Highly recommended!",
-    image: PriyaImage.src,
+    image: '/priya.jpg',
   },
   {
     name: "Amit Kumar",
     role: "Freelancer",
     rating: 5,
     text: "The freelancing course and templates helped me land my first 5 clients within weeks. This bundle is worth much more than what I paid for it.",
-    image: AmitImage.src,
+    image: '/amit.jpg',
   },
 ]
