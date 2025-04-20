@@ -60,7 +60,7 @@ export default function PrivacyPage() {
           </p>
 
           <h2>9. Contact Us</h2>
-          <p>If you have any questions about this Privacy Policy, please contact us at support@example.com.</p>
+          <p>If you have any questions about this Privacy Policy, please contact us at support@zaroorimall.com.</p>
         </div>
       </div>
     </main>

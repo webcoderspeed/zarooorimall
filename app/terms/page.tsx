@@ -53,7 +53,7 @@ export default function TermsPage() {
           </p>
 
           <h2>8. Contact Information</h2>
-          <p>If you have any questions about these Terms, please contact us at support@example.com.</p>
+          <p>If you have any questions about these Terms, please contact us at support@zaroorimall.com.</p>
         </div>
       </div>
     </main>

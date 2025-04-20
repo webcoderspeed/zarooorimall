@@ -20,8 +20,8 @@ export default function ContactPage() {
               <div className="flex items-center justify-center p-6 border rounded-lg bg-gray-50">
                 <div className="flex items-center gap-3">
                   <Mail className="h-6 w-6 text-purple-600" />
-                  <a href="mailto:support@example.com" className="text-lg font-medium hover:underline">
-                    support@example.com
+                  <a href="mailto:support@zaroorimall.com" className="text-lg font-medium hover:underline">
+                    support@zaroorimall.com
                   </a>
                 </div>
               </div>
