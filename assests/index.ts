@@ -9,10 +9,10 @@ import InstagramGrowthBundleImage from "./instagram-growth-bundle.png";
 import ResumeTemplateBundleImage from "./resume-template-bundle.jpg";
 import PanIndiaDatabaseImage from "./pan-india-database.jpeg";
 import FreelancingBundleImage from "./freelancing-bundle.jpeg";
-import ChatGptPromptBundleImage from "./chatgpt-prompt-bundle.avif";
+import ChatGptPromptBundleImage from "./chatgpt-prompt-bundle.jpeg";
 import FitnessBundleImage from "./fitness-bundle.jpeg";
 import RahulImage from './rahul.jpeg';
-import PriyaImage from './priya.avif';
+import PriyaImage from './priya.jpeg';
 import AmitImage from './amit.jpg';
 
 export {
