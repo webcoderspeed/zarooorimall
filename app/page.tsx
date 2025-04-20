@@ -16,6 +16,7 @@ import ParallaxSection from "@/components/parallax-section"
 import HeroAnimation from "@/components/hero-animation"
 import StarRating from "@/components/star-rating"
 import PurchaseToast from "@/components/purchase-toast"
+import { AmitImage, IntroImage, PriyaImage, RahulImage } from "@/assests"
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -76,7 +77,7 @@ export default function Home() {
                   <Button
                     size="lg"
                     className="bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
-                    onClick={() => window.open("https://example.com/buy", "_blank")}
+                    onClick={() => window.open("https://superprofile.bio/vp/x4CK7b7x", "_blank")}
                   >
                     अभी खरीदें - सिर्फ ₹199 <ArrowRight className="ml-2" />
                   </Button>
@@ -111,12 +112,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative"
             >
-              <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-2xl border bg-gray-200">
                 <Image
-                  src="/placeholder.svg?height=800&width=600"
+                  src={IntroImage.src}
                   alt="Digital Assets Bundle"
                   fill
-                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6">
                   <Badge className="self-start mb-2 bg-teal-500 text-white">Premium Bundle</Badge>
@@ -209,7 +209,7 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
-                onClick={() => window.open("https://example.com/buy", "_blank")}
+                onClick={() => window.open("https://superprofile.bio/vp/x4CK7b7x", "_blank")}
               >
                 अभी खरीदें - सिर्फ ₹199 <ArrowRight className="ml-2" />
               </Button>
@@ -252,7 +252,7 @@ export default function Home() {
                     <div className="flex items-center gap-4 mb-4">
                       <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-teal-500">
                         <Image
-                          src={`/placeholder.svg?height=64&width=64`}
+                          src={testimonial.image || `/placeholder.svg`}
                           alt={testimonial.name}
                           fill
                           className="object-cover"
@@ -298,7 +298,7 @@ export default function Home() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
-                onClick={() => window.open("https://example.com/buy", "_blank")}
+                onClick={() => window.open("https://superprofile.bio/vp/x4CK7b7x", "_blank")}
               >
                 अभी खरीदें - सिर्फ ₹199 <ArrowRight className="ml-2" />
               </Button>
@@ -367,17 +367,20 @@ const testimonials = [
     role: "Digital Marketer",
     rating: 5,
     text: "This bundle completely transformed my digital marketing strategy. The templates and courses helped me grow my client's Instagram following by 300% in just 2 months!",
+    image: RahulImage.src,
   },
   {
     name: "Priya Patel",
     role: "Content Creator",
     rating: 4.5,
     text: "The AI Reels Bundle saved me countless hours of work. I'm now able to create engaging content in minutes instead of hours. Highly recommended!",
+    image: PriyaImage.src,
   },
   {
     name: "Amit Kumar",
     role: "Freelancer",
     rating: 5,
     text: "The freelancing course and templates helped me land my first 5 clients within weeks. This bundle is worth much more than what I paid for it.",
+    image: AmitImage.src,
   },
 ]
